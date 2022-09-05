@@ -7,8 +7,6 @@
 
 }
 
-/* .img1 {
-    height: 11rem;
-    width: 100%;
-    background-color: blue;
-} */
+body {
+    font-family: Roboto, Arial, Helvetica, sans-serif;
+}
