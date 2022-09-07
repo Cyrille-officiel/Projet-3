@@ -1,22 +1,103 @@
-.box1 {
-    border-radius: 1rem;
-    margin: 0.7rem 1rem 0.7rem 1rem;
-    position: relative;
-    background-color: white;
-    box-shadow: 0 0px 20px rgba(0, 0, 0, 0.2);
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;500;700;900&family=Shrikhand&display=swap");
+
+
+
+
+.Section {
+    /* background-color: rgba(0, 0, 0, 0.5); */
+    position: fixed;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 3;
 
 }
 
-@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;500;700;900&family=Shrikhand&display=swap");
-
 body {
+    scroll-behavior: smooth;
+    margin: 0;
     font-family: "Roboto", sans-serif;
 }
 
-.section .loading-two {
-    border-radius: 50px;
-    border: 6px solid rgba(255, 255, 255, 0.4);
+body img {
+    height: auto;
+    max-width: 100%;
 }
 
-/* font-family: "Shrikhand",
-cursive; */
+body a {
+    text-decoration: none;
+}
+
+
+body header {
+    box-shadow: 0 0px 20px rgba(0, 0, 0, 0.2);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    height: 4.5rem;
+}
+
+/* 159 */
+.Box3 .Resa1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 4rem;
+    font-size: 18px;
+    background-color: #eaeaea;
+    color: #7e7e7e;
+}
+
+.Box3 .Resa1 .fa-map-marker-alt {
+    position: relative;
+    right: 1.3rem;
+}
+
+.Box3 .Resa3 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    background-color: #f6f6f6;
+    padding: 1rem 2rem 3rem 2rem;
+}
+
+/* 181 */
+.Box3 .Resa3 .Titreloca1 {
+    width: 80%;
+    margin-bottom: 0.5rem;
+}
+
+.Box3 .Resa3 .Titreloca2 {
+    margin-top: 0rem;
+    margin-bottom: 1.5rem;
+    font-weight: 300;
+}
+
+/* 190 */
+.Box3 .Resa3 .Bouton1 {
+    box-shadow: 0 0px 20px rgba(0, 0, 0, 0.2);
+    background: #ff79da;
+    background: linear-gradient(180deg, #ff79da 0%, #ff79da 5%, #9356dc 100%);
+    border-radius: 30px;
+    display: inline-block;
+    cursor: pointer;
+    color: white;
+    font-size: 18px;
+    margin: 1.5rem 0 1rem 0;
+    padding: 15px 35px;
+    text-decoration: none;
+}
+
+/* .Box3 .Resa3 .Bouton1 hover {
+    box-shadow: 0 0px 5px rgba(0, 0, 0, 0.2);
+    background: #f897dd;
+    background: linear-gradient(180deg, #f897dd 0%, #f897dd 5%, rrgb(163, 117, 219) 100%);
+} */
+
+/* 208 */
+.Box3
