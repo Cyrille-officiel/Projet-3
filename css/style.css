@@ -486,7 +486,7 @@ body header .navigationLogoBack a {
     transform: scale(1.1);
 }
 
-/* @-webkit-keyframes ending {
+@-webkit-keyframes ending {
     to {
         opacity: 0;
         z-index: -1;
@@ -538,11 +538,16 @@ body header .navigationLogoBack a {
 
 .section .loading-two {
     border-radius: 50px;
-    border: 6px solid rgba(255, 255, 255, 0.4);
+    border: 6px solid #FF79DA;
 }
 
+
+/* Centre */
+
+
+
 .section .loading-two::after {
-    content: "";
+    content: "Oh My Food";
     position: absolute;
     top: -6px;
     left: -6px;
@@ -550,9 +555,13 @@ body header .navigationLogoBack a {
     right: -6px;
     border-radius: 50px;
     border: 6px solid transparent;
-    border-top-color: white;
+    border-top-color: #FF79DA;
     animation: spin 1s linear infinite;
 }
+
+
+
+/* animation pages */
 
 .fad-in-top {
     animation: fadeIn 0.75s ease-in both;
@@ -582,41 +591,11 @@ body header .navigationLogoBack a {
         opacity: 1;
         transform: translate3d(0, 0, 0);
     }
-} */
-
-
-
-
-
-/* 111111111111111111111111111 */
-
-.section {
-    width: 70px;
-    height: 47px;
-    background: #92B901;
-    color: #ffffff;
-    position: relative;
-    font-weight: bold;
-    font-size: 20px;
-    padding: 10px;
-    animation: animated_div 5s 1;
-    -moz-animation: animated_div 5s 1;
-    -webkit-animation: animated_div 5s 1;
-    -o-animation: animated_div 5s 1;
-    border-radius: 5px;
-    -webkit-border-radius: 5px;
 }
 
 
 
-
-
-
-
-
-
-
-/* ****************Responsive - smartphone******************************** */
+/* **********************************************Responsive - smartphone******************************** */
 
 @media (min-width: 1200px) {
     .container-francaise {
