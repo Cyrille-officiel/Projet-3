@@ -452,9 +452,7 @@ body header .navigationLogoBack a {
 
 
 /* *************************************************************Animation******************************************************************** */
-
-
-.heart__animation1 {
+Heart+Butt .heart__animation1 {
     position: absolute;
     right: 5%;
     transition-duration: 500ms;
@@ -485,6 +483,9 @@ body header .navigationLogoBack a {
     transition-duration: 500ms;
     transform: scale(1.1);
 }
+
+/* Chargement */
+
 
 @-webkit-keyframes ending {
     to {
@@ -542,12 +543,12 @@ body header .navigationLogoBack a {
 }
 
 
-/* Centre */
+/* Mise */
 
 
 
 .section .loading-two::after {
-    content: "Oh My Food";
+    content: "ho my food";
     position: absolute;
     top: -6px;
     left: -6px;
@@ -555,7 +556,7 @@ body header .navigationLogoBack a {
     right: -6px;
     border-radius: 50px;
     border: 6px solid transparent;
-    border-top-color: #FF79DA;
+    border-top-color: #26d43d;
     animation: spin 1s linear infinite;
 }
 
@@ -595,7 +596,7 @@ body header .navigationLogoBack a {
 
 
 
-/* **********************************************Responsive - smartphone******************************** */
+/* **********************************************Responsive - mobile******************************** */
 
 @media (min-width: 1200px) {
     .container-francaise {
@@ -800,3 +801,13 @@ body header .navigationLogoBack a {
         display: block;
     }
 }
+
+
+
+
+/* superposer animation coeur */
+/* pages : animation du bas vers le haut */
+/* validateur html et css = correction */
+/* preparer livrable  + powerpoint*/
+/* + commentaire en html */
+/* modifier couleur logo chargement */
