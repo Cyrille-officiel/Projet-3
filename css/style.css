@@ -585,12 +585,12 @@ Heart+Butt .heart__animation1 {
 @keyframes fadeIn {
     from {
         opacity: 0;
-        transform: translate3d(0, -10%, 0);
+        transform: translate3d(0, 0, 0);
     }
 
     to {
         opacity: 1;
-        transform: translate3d(0, 0, 0);
+        transform: translate3d(0, -10%, 0);
     }
 }
 
@@ -806,7 +806,8 @@ Heart+Butt .heart__animation1 {
 
 
 /* superposer animation coeur */
-/* pages : animation du bas vers le haut */
+/* pages : animation du bas vers le haut ==================ok*/
+
 /* validateur html et css = correction */
 /* preparer livrable  + powerpoint*/
 /* + commentaire en html */
