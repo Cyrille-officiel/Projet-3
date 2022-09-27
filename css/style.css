@@ -225,7 +225,7 @@ body header .navigationLogoBack a {
 .container .reserve--main .button__location:hover {
     box-shadow: 0 0px 5px rgba(0, 0, 0, 0.2);
     background: #f897dd;
-    background: linear-gradient(180deg, #f897dd 0%, #f897dd 5%, rrgb(163, 117, 219) 100%);
+    background: linear-gradient(180deg, #f897dd 0%, #f897dd 5%, rgb(163, 117, 219) 100%);
 }
 
 .container .main--fonction {
@@ -414,7 +414,7 @@ body header .navigationLogoBack a {
 .container-francaise .button__plat:hover {
     box-shadow: 0 0px 5px rgba(0, 0, 0, 0.2);
     background: #f897dd;
-    background: linear-gradient(180deg, #f897dd 0%, #f897dd 5%, rrgb(163, 117, 219) 100%);
+    background: linear-gradient(180deg, #f897dd 0%, #f897dd 5%, rgb(163, 117, 219) 100%);
 }
 
 .container-francaise .menu-francaise {
