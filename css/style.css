@@ -571,6 +571,15 @@ body header .navigationLogoBack a {
     margin: 0.3rem 0 0.3rem 0;
 }
 
+
+
+
+
+
+
+/* ************************************************Responsive****************************************************************** */
+
+
 @media (min-width: 1200px) {
     .container-francaise {
         margin: 0 15rem 0 15rem;
