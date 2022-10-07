@@ -1,5 +1,11 @@
 @import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;500;700;900&family=Shrikhand&display=swap");
 
+
+
+/* Animation coeur */
+
+
+
 .heart__animation1 {
     position: absolute;
     right: 5%;
@@ -16,6 +22,7 @@
 .heart-animation:hover>.heart__animation1 {
     background: -webkit-gradient(linear, left top, left bottom, from(#9356DC), to(#FF79DA));
     background-clip: text;
+    /* (arrie plan) */
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     transition-duration: 500ms;
@@ -26,16 +33,24 @@
     opacity: 1;
     background: -webkit-gradient(linear, left top, left bottom, from(#9356DC), to(#FF79DA));
     background-clip: text;
+    /* (arrie plan) */
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     transition-duration: 500ms;
     transform: scale(1.1);
 }
 
+
+
+/* Animation au chargement page acceuil */
+
+
+
 @-webkit-keyframes ending {
     to {
         opacity: 0;
         z-index: -1;
+        /* odre élément  */
     }
 }
 
@@ -43,6 +58,7 @@
     to {
         opacity: 0;
         z-index: -1;
+        /* odre élément  */
     }
 }
 
@@ -59,6 +75,12 @@
         transform: rotate(360deg);
     }
 }
+
+
+
+/* Les sections aniamtion*/
+
+
 
 .section {
     background-color: rgba(0, 0, 0, 0.5);
@@ -87,6 +109,7 @@
     border: 6px solid rgba(255, 255, 255, 0.4);
 }
 
+
 .section .loading-two::after {
     content: "";
     position: absolute;
@@ -96,7 +119,7 @@
     right: -6px;
     border-radius: 50px;
     border: 6px solid transparent;
-    border-top-color: white;
+    border-top-color: rgb(126, 7, 110);
     animation: spin 1s linear infinite;
 }
 
@@ -117,6 +140,12 @@
 .animatin-delay-05 {
     animation-delay: 0.5s;
 }
+
+
+
+/* Animation pages */
+
+
 
 @keyframes fadeIn {
     from {
@@ -446,11 +475,26 @@ body header .navigationLogoBack a {
     z-index: -2;
 }
 
+
+
+/* box-menu : scales des lignes lors de  */
+/* overflow = masquer le texte lors de   */
+
+
+
+
+
+
+
+
+
+
 .container-francaise .menu-francaise .menu-one .plat-francaise .box-menu {
     box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
     text-overflow: ellipsis;
     overflow: hidden;
     border-radius: 1rem;
+
 }
 
 .container-francaise .menu-francaise .menu-one .plat-francaise .box-menu label {
@@ -468,6 +512,7 @@ body header .navigationLogoBack a {
     display: flex;
     max-width: 100%;
     overflow: hidden;
+
 }
 
 .container-francaise .menu-francaise .menu-one .plat-francaise .box-menu .menu-container .texte {
@@ -512,6 +557,7 @@ body header .navigationLogoBack a {
     margin-right: -7rem;
     transition-duration: 0.5s;
     transition-timing-function: ease;
+
 }
 
 .container-francaise .menu-francaise .menu-one .plat-francaise .box-menu .menu-container .icon i {
@@ -520,24 +566,26 @@ body header .navigationLogoBack a {
     border-radius: 50%;
     background: white;
     transition-duration: 0.5s;
-}
-
-.container-francaise .menu-francaise .menu-one .plat-francaise input {
-    appearance: none;
-    width: 100%;
-    height: 5rem;
-    border-radius: 1rem;
-    position: absolute;
     cursor: pointer;
 }
 
-.container-francaise .menu-francaise .menu-one .plat-francaise input:checked~.menu-container .icon {
+
+.container-francaise .menu-francaise .menu-one .plat-francaise {
+
+    cursor: pointer;
+}
+
+.container-francaise .menu-francaise .menu-one .plat-francaise .scales:hover .menu-container .icon {
     margin-right: 0;
     transition-duration: 0.5s;
     transition-timing-function: ease;
+
 }
 
-.container-francaise .menu-francaise .menu-one .plat-francaise input:checked~.menu-container i {
+.container-francaise .menu-francaise .menu-one .plat-francaise .scales:hover .menu-container i
+/* animation check des pages */
+
+    {
     margin-right: 0;
     transition-duration: 0.5s;
     transition-timing-function: ease;
@@ -550,6 +598,9 @@ body header .navigationLogoBack a {
     color: white;
     background-color: #353535;
 }
+
+
+/* css pied de page footer  */
 
 .footer-main .navigationLogo h3 {
     font-size: 1.2rem;
